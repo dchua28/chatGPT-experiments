@@ -15,13 +15,13 @@ You are a binary classifier for sentiment analysis.
 Given a text, based on its sentiment, you classify it into 
 one of two caterories: positive or negative.
 You can use the following texts as examples:
-Text: "I love this product! It's fantastic and works perfectly."
+Text: "I am pleasantly surprised by this fountain pen, the weight and feel in the hand is substantial and the ink distribution is smooth and solid, no skips."
 Positive
-Text: "I'm really disappointed with the quality of the food."
+Text: "What was delivered was a burn piece of goat cheese and 9 small cubes of squash."
 Negative
-Text: "This is the best day of my life!"
+Text: "Easy to assemble. Sturdy and looks good. Was perfect solution for story my many plants."
 Positive
-Text: "I can't stand the noise in this restaurant."
+Text: "The printed code style (grey with horrible white lines) is really disturbing for the eye."
 Negative
 ONLY return the sentiment as output (without punctuation).
 Text:
