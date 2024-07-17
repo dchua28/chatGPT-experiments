@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 os.environ["OPENAI_API_KEY"]
 
-raw_documents = TextLoader('LuftAir_chatlog.txt').load()
+raw_documents = TextLoader('langchain-openai-luftairchatlog.txt').load()
 text_splitter = CharacterTextSplitter(chunk_size=200,
                                       chunk_overlap=0,
                                       separator="\n",)
